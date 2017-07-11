@@ -1,0 +1,293 @@
+body {
+
+  height: 100%;
+  width:  100%;
+  background-color: #9DBA39;
+}
+
+label {
+  padding-left:  1em;
+  padding-right: 4em;
+}
+ 
+.yourDetails {
+  display: flex;
+  height: 3em;
+  width:  15%;
+  /*border: 1px solid #fff;*/
+  /*border-radius: 5px;*/
+  /*background-color: #B9CE70;*/
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divTwo {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divThree {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top: 2px;
+}
+
+.divFour {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divFive {
+  display: flex;
+  height: 10em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  /*align-items: center;*/
+  margin-left: 30em;
+  margin-top:  2px;
+  padding: 5px 0;
+}
+
+.divSix {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divSeven {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divEight {
+  display: flex;
+  height:  5em;
+  width:   35%;
+  border:  1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 30em;
+  margin-top:  2px;
+  padding-top: 1.25em;
+}
+.creditCards {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top:  1em;
+  padding-left: 7.5em;
+}
+
+#amex1 {
+  display: flex;
+  height: 1em;
+  width:  5em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+}
+#visa1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2em;
+}
+img {
+  height: 1em;
+  width:  1em;
+}
+#mastercard1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2em;
+}
+
+.divNine {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divTen {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+.divEleven {
+  display: flex;
+  height: 3em;
+  width:  35%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #B9CE70;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+ /*placeholder {
+  font-style: italic;
+}*/
+
+ .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color:  #fff;
+  height: 3em;
+  width:  10em;
+  background-color: #374216;
+  margin-top: 1em;
+  margin-left: 40%;
+  border-radius: 25px;
+  border-style: transparent;
+  /*box-shadow: 10px 10px 5px #888888;*/
+}
+.button:hover {
+  box-shadow: 10px 10px 5px #888888;
+  transition: 5s;
+  transform: rotateX(360deg);
+}
+
+#country1 {
+  padding-right: 3em;
+}
+
+input {
+  font-style: italic;
+  border-radius: 5px;
+}
+input:hover {
+  background-color: #eee;
+}
+
+textarea:hover {
+  background-color: #bbb;
+
+}
+#inputCC {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#postCode1 {
+  padding-right: 2.3em;
+}
+
+#addLabel {
+  margin-top: 1em;
+  padding-right: 3em;
+}
+#nameOnCard1 {
+  padding-right: 1.25em;
+}
+#cardNumber1 {
+  padding-right: 1.25em;
+}
+#securityCode1 {
+  padding-right: 1.2em;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+}
+
+.deliveryAdd {
+  display: flex;
+  height: 3em;
+  width:  15%;
+  /*border: 1px solid #fff;*/
+  /*border-radius: 5px;*/
+  /*background-color: #B9CE70;*/
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.cardDetails {
+  display: flex;
+  height: 3em;
+  width:  15%;
+  /*border: 1px solid #fff;*/
+  /*border-radius: 5px;*/
+  /*background-color: #B9CE70;*/
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30em;
+  margin-top:  2px;
+}
